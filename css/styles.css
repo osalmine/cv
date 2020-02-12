@@ -45,6 +45,20 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
+@media (max-width: 615px) {
+	#title {
+		text-align: center;
+	}
+
+	.center {
+	    position: relative;
+	    top: 50%;
+	    left: 20%;
+		padding-left: 25%;
+	    transform: translateX(-25%) translateY(-30%);
+	}
+}
+
 .navbar-item {
 	padding: 0 13px;
 }
