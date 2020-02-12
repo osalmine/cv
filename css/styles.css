@@ -37,12 +37,14 @@
 	padding: 8rem 1rem;
 }
 
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-	padding-left: 25%;
-    transform: translateX(-50%) translateY(-50%);
+@media (min-width: 615px) {
+	.center {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+		padding-left: 25%;
+	    transform: translateX(-50%) translateY(-50%);
+	}
 }
 
 .navbar-item {
@@ -85,15 +87,12 @@
 @media (max-width: 615px) {
 	#title {
 		text-align: center;
-		height: 120%;
 	}
 
 	.center {
-	    position: relative;
-	    top: 50%;
-	    left: 20%;
-		padding-left: 25%;
-	    transform: translateX(-25%) translateY(-30%);
+		top: 50%;
+		transform: translateY(-32%);
+	    text-align: center;
 	}
 }
 .img-holder {
