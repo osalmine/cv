@@ -95,6 +95,18 @@
 	    text-align: center;
 	}
 }
+
+.anim {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
 .img-holder {
   width: auto;
   display: inline-block;
@@ -147,26 +159,6 @@
 
 .footer-container {
 	padding: 0;
-}
-
-/* width */
-::-webkit-scrollbar {
-	width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-	background: #eeeeee;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-	background: #222831;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-	background: #393e46;
 }
 
 p {
