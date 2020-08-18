@@ -9,11 +9,9 @@ function typeWriter(text, i, tag, cur, max, fnCallback) {
 		}, 120);
 	}
 	else if (typeof fnCallback == 'function' && cur != max - 1) {
-		console.log("Not last item, cur: " + cur + " max: " + max);
 		setTimeout(fnCallback, 700);
 	}
 	else if (typeof fnCallback == 'function' && cur == max - 1) {
-		console.log("Last item");
 		setTimeout(fnCallback, 2350);
 	}
 }
